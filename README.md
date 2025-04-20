@@ -1,0 +1,52 @@
+# SPRING BOOT REST APIs: BUILDING MODERN APIs WITH SPRING BOOT
+
+Del curso de UDEMY: `https://www.udemy.com/course/spring-boot-rest-apis`
+
+Lo que aprenderemos será:
+
+- Desarrollo de aplicaciones Spring Boot REST
+- Uso de Hibernate/JPa para acceso a BD
+- Desarrollo de endpoints REST API usando Spring Boot
+- Aplicar Spring Security para controlar el acceso a aplicaciones
+- Implementar y hacer uso de JWT construido desde cero
+- Añadir Roles y status Admin a través de los endpoints REST
+- Uso de configuración Java (no XML) y Maven
+
+## Qué son los servicios REST
+
+Veremos:
+
+- Create REST APIs / Web Services con Spring
+- Discutiremos conceptos REST, JSON y mensajería HTTP
+- Instalaremos la herramienta de cliente REST: Postman
+- Desarrollaremos APIs REST / Servicios Web con @RestController
+- Construiremos una interface CRUD a la BD con Spring REST
+
+### Qué problema queremos resolver
+
+Imaginemos que queremos:
+
+- Construir una app de cliente que proporcione el reporte del tiempo de una ciudad
+- Necesitamos obtener la data del tiempo de un servicio externo
+
+![alt Arquitectura](./images/01-Arquitectura.png)
+
+Nos conectaremos al servicio del tiempo (openweathermap.org) a través de llamadas API REST sobre HTTP.
+
+Las aplicaciones REST pueden usar cualquier formato de datos, siendo lo normal XML y JSON (el más popular y moderno), y son independientes del lenguaje de programación.
+
+## Spring Boot REST - Proyecto 1
+
+Creamos un proyecto llamado `01-books`.
+
+Creamos el proyecto usando Spring Initializr.
+
+![alt Proyecto](./images/02-Project1-SpringInitializr.png)
+
+Objetivo:
+
+- Aprender lo básico de Spring Boot Rest
+- Vamos a usar una lista (no hay BD) con títulos de libros
+- Vamos a crear operaciones CRUD, es decir, vamos a crear libros, leer todos o algún título específico, actualizar libros y borrar los libros
+- Cada una de estas operaciones CRUD trata con peticiones (requests) y respuestas (responses)
+- Vamos a trabajar con Swagger para probar los distintos endpoints de la API
