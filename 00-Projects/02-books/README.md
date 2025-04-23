@@ -248,7 +248,7 @@ Spring proporciona para resolver este problema la anotación `@ControllerAdvice`
 
 - Crear una nueva clase `BookExceptionHandler` y la anotamos con la anotación `@ControllerAdvice`
 - Refactorizamos nuestro service REST, eliminando el código de manejo de excepción
-- Añadimos ese mismo cóidgo a nuestro `@ControllerAdvice`
+- Añadimos ese mismo código a nuestro `@ControllerAdvice`
 
 ## Testing
 
