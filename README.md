@@ -50,3 +50,22 @@ Objetivo:
 - Vamos a crear operaciones CRUD, es decir, vamos a crear libros, leer todos o algún título específico, actualizar libros y borrar los libros
 - Cada una de estas operaciones CRUD trata con peticiones (requests) y respuestas (responses)
 - Vamos a trabajar con Swagger para probar los distintos endpoints de la API
+
+## Spring Boot REST - Proyecto 2
+
+Creamos un proyecto llamado `02-books`, copiando el proyecto anterior.
+
+Básicamente es lo mismo que el proyecto 1, es decir:
+
+- Seguimos enfocados en crear endpoints API Book
+- Creamos otro CRUD
+
+Y añadimos:
+
+- En nuestro entity, los campos de id y de rating
+- Validaciones de datos
+- Manejo de excepciones
+- Códigos de estado
+- Configuración de Swagger
+- Java Request Objects
+- Y, en general, añadimos profundidad a la API REST y lo limpiamos de código innecesario
