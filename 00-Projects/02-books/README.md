@@ -2,7 +2,7 @@
 
 Creamos un proyecto llamado `02-books`, copiando el proyecto anterior.
 
-Básicamente es lo mismo que el proyecto 1, es decir:
+Básicamente es lo mismo que el proyecto `01-books`, es decir:
 
 - Seguimos enfocados en crear endpoints API Book
 - Creamos otro CRUD
