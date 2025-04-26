@@ -41,7 +41,7 @@ Creamos un proyecto llamado `01-books`.
 
 Creamos el proyecto usando Spring Initializr.
 
-![alt Proyecto](./images/02-Project1-SpringInitializr.png)
+![alt Proyecto 1](./images/02-Project1-SpringInitializr.png)
 
 Objetivo:
 
@@ -69,3 +69,36 @@ Y añadimos:
 - Configuración de Swagger
 - Java Request Objects
 - Y, en general, añadimos profundidad a la API REST y lo limpiamos de código innecesario
+
+## Spring Boot REST - Proyecto 3
+
+Vamos a cambiar el foco de Books a Employees.
+
+Creamos un proyecto llamado `03-employees`.
+
+![alt Proyecto 3](./images/05-Project3-SpringInitializr.png)
+
+La nueva información incluye:
+
+- SQL Databases
+- Authentication
+- Authorization
+- Hashing Passwords
+
+La arquitectura es la siguiente:
+
+![alt Arquitectura Proyecto 3](./images/03-ArquitecturaProyecto3.png)
+
+Donde Spring Boot Security, que es donde vamos a implementar la autenticación y la autorización, va a securizar el Controller, el Service y el DAO.
+
+El controller será nuestro punto de entrada a la autenticación y autorización, es decir, cuando se llame a un endpoint, Spring Boot Security va a interceptar la llamada y va a verificar si el usuario tiene acceso o no.
+
+Los clientes REST que puedan acceder a la API podrán:
+
+- Obtener una lista de Employees
+- Obtener un Employee por id
+- Crear un Employee
+- Actualizar un Employee
+- Borrar un Employee
+
+![alt Endpoints Proyecto 3](./images/04-EndpointsProyecto3.png)
