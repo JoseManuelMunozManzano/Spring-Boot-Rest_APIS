@@ -368,18 +368,23 @@ Ahora tenemos tres opciones, de la que tenemos que elegir de una en una para pro
   - En la carpeta `sql` situada en la raiz del proyecto tenemos el archivo `1.sql` para configurar las tablas de seguridad. Lo abrimos, copiamos el contenido y lo pegamos en la consola H2
   - Ejecutamos el botón Run
   - Si todo va bien, veremos que se han creado las tablas de seguridad, `users` y `authorities`
+  
     ![alt H2 Users](./images/11-H2Users.png)
     ![alt H2 Authorities](./images/12-H2Authorities.png)
+  
 - Opción 2: Passwords encriptados con BCrypt y uso de tablas por defecto
   - En la carpeta `sql` situada en la raiz del proyecto tenemos el archivo `2.sql` para configurar las tablas de seguridad. Lo abrimos, copiamos el contenido y lo pegamos en la consola H2
   - Ejecutamos el botón Run
   - Si todo va bien, veremos que se han creado las tablas de seguridad, `users` y `authorities`
+  
     ![alt H2 Users con BCrypt](./images/15-UsersBCrypt.png)
     ![alt H2 Authorities](./images/12-H2Authorities.png)
+  
 - Opción 3: Passwords encriptados con BCrypt y uso de tablas personalizadas
   - En la carpeta `sql` situada en la raiz del proyecto tenemos el archivo `3.sql` para configurar las tablas de seguridad. Lo abrimos, copiamos el contenido y lo pegamos en la consola H2
   - Ejecutamos el botón Run
   - Si todo va bien, veremos que se han creado las tablas de seguridad, `users` y `authorities`
+  
     ![alt H2 System_Users](./images/17-H2System_Users.png)
     ![alt H2 Roles](./images/18-H2Roles.png)
 
