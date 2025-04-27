@@ -102,3 +102,19 @@ Los clientes REST que puedan acceder a la API podrán:
 - Borrar un Employee
 
 ![alt Endpoints Proyecto 3](./images/04-EndpointsProyecto3.png)
+
+## Spring Boot REST - Proyecto 3 - Continuación
+
+Creamos un proyecto llamado `03-employees-part2`, copiando el proyecto anterior.
+
+Qué vamos a ver:
+
+- Spring Data JPA en Spring Boot
+  - Actualmente, EmployeeDAO usa JPA API, pero Spring Boot tiene su propia implementación de JPA, que es Spring Data JPA
+  - Vamos a transformar nuestro proyecto para usar Spring Data JPA en vez de DAO, para que Spring Boot me cree un CRUD básico
+- Spring REST API Security
+  - Como securizar APIs Spring Boot REST
+  - Definir users y roles
+  - Proteger URLs basado en role
+  - Almacenar users, passwords y roles en BBDD (texto plano y luego encriptado)
+  - Vamos a cubrir las tareas más comunes de Spring Security necesarias en el día a día
